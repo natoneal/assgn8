@@ -1,175 +1,151 @@
 <!DOCTYPE html>
+<!--header (not physical visibal header on the website, this is about data-->
 <html lang="en">
     <head>
         <title>portfolio mainpage</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-        <link />
         <script src="main.js"></script>
     </head>
 
     <body>
-
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    <a class="navbar-brand" href="#">Nat Schade</a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span></span>.portfolio</a></li>
-                        <li><a href="#"><span></span>.about</a></li>
-                        <li><a href="#"><span></span>.contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="./Assets/images/A2AB3F1C-29EF-4FE4-9D6E-9928D4A2F00A.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <h3>ugli</h3>
-                        <p>an autonomous food truck, combatting food waste</p>
+<!-- Start Header (aka navigation bar) Code -->
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <div class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+                            <span class="bar1"></span>
+                            <span class="bar2"></span>
+                            <span class="bar3"></span>
+                        </div>
+                            <!--  My logo/name -->
+                            <a class="navbar-brand" href="#">Nat Schade</a>
+                    </div>
+                        <div class="collapse navbar-collapse" id="main-menu">
+                           <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#portfolio">portfolio</a></li>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#contact">contact</a></li>
+                          </ul>
+                        </div>
                     </div>
                 </div>
+            </nav>
+        </header>
+<!-- End header code (for navigation bar) -->
 
-                <div class="item">
-                    <img src="./Assets/images/A2AB3F1C-29EF-4FE4-9D6E-9928D4A2F00A.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <h3>ABC</h3>
-                        <p>user research: a look at the ties between communities and their public art</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="./Assets/images/A2AB3F1C-29EF-4FE4-9D6E-9928D4A2F00A.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <h3>gadgets</h3>
-                        <p>responsive heating and cooling</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-
-
-        <div class="container-fluid bg-3 text-center">
-            <h3>Some of my Work</h3><br>
-            <div class="row">
-                <div class="col-sm-3">
-                    <p>Some text..</p>
-                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-3">
-                    <p>Some text..</p>
-                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-3">
-                    <p>Some text..</p>
-                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-3">
-                    <p>Some text..</p>
-                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-            </div>
-        </div><br>
-
-        <div class="container-fluid bg-3 text-center">
-            <div class="row">
-                <div class="col-sm-3">
-                    <p>Some text..</p>
-                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-3">
-                    <p>Some text..</p>
-                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-3">
-                    <p>Some text..</p>
-                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-3">
-                    <p>Some text..</p>
-                    <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-            </div>
-        </div><br><br>
-
-        <div class="container">
-          <br>
-            <div id="2Carousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
+<!-- start carousel code for main page -->
+        <section id="carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
                     <ol class="carousel-indicators">
-                        <li data-target="#2Carousel" data-slide-to="1"></li>
-                        <li data-target="#2Carousel" data-slide-to="2"></li>
-                        <li data-target="#2Carousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="0"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
                     </ol>
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="./Assets/images/IMG_0287.JPG" alt="Image">
-                            <div class="carousel-caption">
-                                <h3>1</h3>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <img src="./Assets/images/IMG_0287.JPG" alt="Image">
-                            <div class="carousel-caption">
-                                <h3>2</h3>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <img src="./Assets/images/IMG_0287.JPG" alt="Image">
-                            <div class="carousel-caption">
-                                <h3>3</h3>
-                            </div>
+                    <div class="item active">
+                        <img src="./Assets/images/A2AB3F1C-29EF-4FE4-9D6E-9928D4A2F00A.jpg" alt="Image">
+                        <div class="carousel-caption">
+                            <h3>ugli</h3>
+                            <p>an autonomous food truck, combatting food waste</p>
                         </div>
                     </div>
+                    <div class="item">
+                        <img src="./Assets/images/A2AB3F1C-29EF-4FE4-9D6E-9928D4A2F00A.jpg" alt="Image">
+                        <div class="carousel-caption">
+                            <h3>ABC</h3>
+                            <p>user research: a look at the ties between communities and their public art</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./Assets/images/A2AB3F1C-29EF-4FE4-9D6E-9928D4A2F00A.jpg" alt="Image">
+                        <div class="carousel-caption">
+                            <h3>gadgets</h3>
+                            <p>responsive heating and cooling</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+<!-- end carousel code -->
 
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#2Carousel" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#2Carousel" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+<!-- start code for about section of the main page -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 thumbnail">
+                        <div class="hovereffect">
+                            <div class="col-md-12 photo-1"></div>
+                                <a href="#mybox" data-toggle="modal" data-slide-to="0">
+                                    <div class="overlay">
+                                        <h2>Vivamus accumsan</h2>
+                                        <p>Lacinia ipsum</p>
+                                    </div>
+                                </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 thumbnail">
+                        <div class="hovereffect">
+                            <div class="col-md-12 photo-2"></div>
+                                <a href="#mybox" data-toggle="modal" data-slide-to="1">
+                                    <div class="overlay">
+                                        <h2>Lacinia ante</h2>
+                                        <p>Aliquam pellentesque</p>
+                                    </div>
+                                </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-<!-- footer container-->
-        <footer class="container-fluid text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 thumbnail">
+                        <div class="hovereffect">
+                            <div class="col-md-12 photo-3"></div>
+                                <a href="#mybox" data-toggle="modal" data-slide-to="2">
+                                    <div class="overlay">
+                                        <h2>Ultris sodales</h2>
+                                        <p>Quisque maximu</p>
+                                    </div>
+                                </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 thumbnail">
+                        <div class="hovereffect">
+                            <div class="col-md-12 photo-4"></div>
+                                <a href="#mybox" data-toggle="modal" data-slide-to="3">
+                                    <div class="overlay">
+                                        <h2>Quisque maximu</h2>
+                                        <p>Sed eu magna</p>
+                                    </div>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- end about section code -->
+
+<!-- start bottom portfolio view section of the main page -->
+<!-- endbottom portfolio view section of the main page -->
+
+
+<!-- start footer content-->
+        <footer class="container-fluid">
               <div class="footer" >
                   <a href="#footer">Terms</a>
                   <a href="#footer">Privacy</a>
@@ -179,7 +155,7 @@
                         <a href="facebook"><img src="./Assets/images/facebook.png" alt="facebook" height="20px" width="20px"></a>
                         <a href="linkedin"><img src="./Assets/images/linkedin.png" alt="linkedin" height="20px" width="20px"></a>
                   </div>
-
         </footer>
+<!-- end footer code -->
     </body>
 </html>
