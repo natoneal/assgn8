@@ -1,11 +1,11 @@
 header{
- font-family: open sans;
+    font-family: open sans;
 }
 /*nabar style elements*/
 .navbar {
     border-radius: 0;
     min-height: 50px;
-    width: 100%;*/
+    width: 100%;
     left: 0;
     top: 0;
     overflow: hidden;
@@ -52,8 +52,10 @@ body {
 
 .container-fluid text-center {
     background-color: #147893;
-    padding: 25px;
+    padding: 10%;
 }
+
+
 
 /*start font styles*/
 h1{
@@ -115,12 +117,53 @@ footer a {
 }
 
 /*carasel styling*/
-/*.carousel-indicators {
+.carousel-indicators {
     position: relative;
 }
-*/
+
 .carousel-inner{
      display: block;
      max-width: 100%;
      max-height: 100% !important;
+}
+
+.flex-container {
+  position: relative;
+  width: 40%;
+  object-position: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.flex-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
