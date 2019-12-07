@@ -3693,9 +3693,9 @@ img.rounded {
     min-height: 570px;
 }
 
-.nk-header-title.nk-header-title-lg .nk-header-table {
+/*.nk-header-title.nk-header-title-lg .nk-header-table {
     min-height: 670px;
-}
+}*/
 
 .nk-header-title.nk-header-title-xl .nk-header-table {
     min-height: 770px;
