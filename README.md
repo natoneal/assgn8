@@ -37,20 +37,20 @@ I chose to use it, because I did not know of any good alternatives, and it seeme
 I used it on all of the html pages, in the css, to add responsiveness to my portfolio site
 It adds responsiveness to the website, allowing the website to change between mobile and desktop web views.
 
-flickity
-since I knew I wanted a carousel on the home page, I found a javascript library to help make it easier and more professional looking
-I used flickity to create the carousel on the home page of my portfolio
-It adds touch and responsiveness to my carousel
+flickity:
+Since I knew I wanted a carousel on the home page, I found a javascript library to help make it easier and more professional looking.
+I used flickity to create the carousel on the home page of my portfolio.
+It adds touch and responsiveness to my carousel.
 
-photoswipe
-I wanted the user to go be able to go through the enlarged photos located in my fine arts page
-I used it on the fine art gallery page, allowing users to enlarge photographs and scroll through them
+photoswipe:
+I wanted the user to go be able to go through the enlarged photos located in my fine arts page.
+I used it on the fine art gallery page, allowing users to enlarge photographs and scroll through them.
 It adds functionality to the fine art gallery, allowing users to easily view the images larger.
 
-gsap 
-gsap is a powerful animation tool for javascript, and it seemed more straight forward to use than react
-I used it to do small animations such as the hamburger menu wiggle when the curser hovers over it
-gsap adds a layer of interaction/animation to the website that helps the website feel more professional
+gsap: 
+gsap is a powerful animation tool for javascript, and it seemed more straight forward to use than react.
+I used it to do small animations such as the hamburger menu wiggle when the curser hovers over it.
+gsap adds a layer of interaction/animation to the website that helps the website feel more professional.
 
 Part 4:
 	I changed the visual design of my website to create a more polished, professional appearance than my earlier HW7 mockup. The changes from my original design include: changing the color palette (removing the yellow from the color palette of the sight and adding in a gray), removing the organic shapes located around the main page, removing the opening animation, making individual pages for each of the project pages (instead of creating a template), etc. There is now a hamburger menu in the upper right corner, which smoothly converts between desktop and mobile web views. Based on the feedback I received from other students, the new design that I implemented is cleaner, and more modern, which is a better reflection of my design esthetic.
